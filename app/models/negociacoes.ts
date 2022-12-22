@@ -1,7 +1,6 @@
 import { Negociacao } from "./negociacao";
 
-export class Negociacoes{
-
+export class Negociacoes {
     private negociacoes: Negociacao[] = [];
 
     adiciona(negociacao: Negociacao) {
@@ -9,7 +8,6 @@ export class Negociacoes{
     }
 
     lista(): readonly Negociacao[] {        
-        return this.negociacoes ;
+        return this.negociacoes;
     }
-
 }
