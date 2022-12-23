@@ -6,7 +6,8 @@
         "target": "ES6",
         "noEmitOnError": true,
         "noImplicitAny": true,
-        "removeComments": true
+        "removeComments": true,
+        "strictNullChecks": true
     },    
 
     "include": [
