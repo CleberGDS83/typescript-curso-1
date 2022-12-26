@@ -21,7 +21,7 @@ export class NegociacaoController {
 
     public adiciona(): void { 
         /*
-        TESTE
+        Esse comentário não irá aparecer no arquivo .JS porque eu inclui o atributo "removeComments": true no tsconfig.json
         */       
         const negociacao = Negociacao.criaDe(
             this.inputData.value,
